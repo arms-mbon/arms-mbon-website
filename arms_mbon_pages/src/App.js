@@ -112,21 +112,10 @@ function App() {
       <>
       <NavBar searchTerm={searchTerm}  setSearchTerm={setSearchTerm}/>
         <main>
-          <h1>Home Page</h1>
-          <h1>current page {page}</h1>
+          <h1>Welcome to the arms mbon landing page</h1>
+          //markdown goes in here
         </main>
         
-      </>
-    );
-  }
-  if (page === "#About") {
-    return (
-      <>
-        <NavBar searchTerm={searchTerm}  setSearchTerm={setSearchTerm}/>
-        <main>
-          <h1>About Page</h1>
-          <h1>current page {page}</h1>
-        </main>
       </>
     );
   }

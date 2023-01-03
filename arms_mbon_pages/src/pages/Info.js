@@ -31,10 +31,8 @@ const Info = (props) => {
         return (
             <>
                 <main>
-                    <h1>Info Page</h1>
-                    <h3>current page: {props.hash}</h3>
-                    <h3>search term: {searchTerm}</h3>
-                    <h3>file to get: {filetoget}</h3>
+                    <h1>{filetoget}</h1>
+                    <h3>csv download link: <a href={DATA_SOURCES[filetoget]}>{filetoget}</a></h3>
                     <h3>loading...</h3>
                 </main>
             </>
@@ -45,10 +43,8 @@ const Info = (props) => {
 
     return (
         <main>
-            <h1>Info Page</h1>
-            <h3>current page: {props.hash}</h3>
-            <h3>search term: {searchTerm}</h3>
-            <h3>file to get: {filetoget}</h3>
+            <h1>{filetoget}</h1>
+            <h3>csv download link: <a href={DATA_SOURCES[filetoget]} target="_blank">{filetoget}</a></h3>
             {props.data.length === 0 && <h3>no data</h3>}
             {props.data.length > 0 && 
             <table className="infotable">
