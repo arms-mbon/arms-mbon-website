@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.purple {
+  color: purple;
+}
+
 .textlandingpage {
   width: 90%;
   margin: 0 auto;
