@@ -3,11 +3,10 @@ import axios from 'axios';
 // all urls to data sources that need to be fetched are stored here
 export const DATA_SOURCES = {
     "JSON_PLUTOF": "https://raw.githubusercontent.com/arms-mbon/Data/main/QualityControlledData/FromPlutoF/AllARMSPlutof.json",
-    "AllSequences": "https://raw.githubusercontent.com/arms-mbon/Data/main/QualityControlledData/FromPlutoF/AllSequences.csv",
-    "AllAccociatedData": "https://raw.githubusercontent.com/arms-mbon/Data/main/QualityControlledData/FromPlutoF/AllAssociatedData.csv",
-    "AllMaterialSamples": "https://raw.githubusercontent.com/arms-mbon/Data/main/QualityControlledData/FromPlutoF/AllMaterialSamples.csv",
-    "AllObservations": "https://raw.githubusercontent.com/arms-mbon/Data/main/QualityControlledData/FromPlutoF/AllObservations.csv",
-    "AllOverview": "https://raw.githubusercontent.com/arms-mbon/Data/main/QualityControlledData/FromPlutoF/AllOverview.csv"
+    "ImageData": "https://raw.githubusercontent.com/arms-mbon/Data/main/QualityControlledData/Combined/combined_ImageData.csv",
+    "ObservatoryData": "https://raw.githubusercontent.com/arms-mbon/Data/main/QualityControlledData//Combined/combined_ObservatoryData.csv",
+    "OmicsData": "https://raw.githubusercontent.com/arms-mbon/Data/main/QualityControlledData//Combined/combined_OmicsData.csv",
+    "SamplingEventData": "https://raw.githubusercontent.com/arms-mbon/Data/main/QualityControlledData//Combined/combined_SamplingEventData.csv"
 }
 
 // functions to fetch data from the data sources

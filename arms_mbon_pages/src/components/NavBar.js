@@ -21,11 +21,10 @@ export default function NavBar(props) {
                         <Nav.Link href="https://github.com/arms-mbon/Documentation" target="_blank">Documentation</Nav.Link> 
                         <Nav.Link href="https://github.com/arms-mbon/Templates" target="_blank">Templates</Nav.Link> 
                         <NavDropdown title="Data Overview" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#info/AllOverview">Overview</NavDropdown.Item>
-                            <NavDropdown.Item href="#info/AllAccociatedData">Associated Data</NavDropdown.Item>
-                            <NavDropdown.Item href="#info/AllMaterialSamples">Material Samples</NavDropdown.Item>
-                            <NavDropdown.Item href="#info/AllObservations">Observations</NavDropdown.Item>
-                            <NavDropdown.Item href="#info/AllSequences">Sequences</NavDropdown.Item>
+                            <NavDropdown.Item href="#info/ObservatoryData">Observatory Data</NavDropdown.Item>
+                            <NavDropdown.Item href="#info/SamplingEventData">Sampling Event Data</NavDropdown.Item>
+                            <NavDropdown.Item href="#info/OmicsData">Omics Data</NavDropdown.Item>
+                            <NavDropdown.Item href="#info/ImageData">Image Data</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
