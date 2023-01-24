@@ -1,4 +1,7 @@
+_The file with the html that is the landing page is called App.js, so if Katrina wants to edit the landing page, that is where she needs to go to :-D_
+
 # Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
