@@ -3,6 +3,7 @@
 import React from 'react';
 import { Form, FormControl} from 'react-bootstrap';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import {BsGithub} from 'react-icons/bs';
 //use bootstrap for styling
 export default function NavBar(props) {
     console.log(props);
@@ -12,11 +13,11 @@ export default function NavBar(props) {
     return (
         <>
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="./">ARMS-MBON</Navbar.Brand>
+                <Navbar.Brand className="mr-auto navbararms" href="./">ARMS-MBON</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="./">Home</Nav.Link>
+                        <Nav.Link href="https://github.com/arms-mbon" target="_blank"><BsGithub/></Nav.Link> 
                         <Nav.Link href="https://github.com/arms-mbon/Data" target="_blank">Data</Nav.Link> 
                         <Nav.Link href="https://github.com/arms-mbon/Documentation" target="_blank">Documentation</Nav.Link> 
                         <Nav.Link href="https://github.com/arms-mbon/Templates" target="_blank">Templates</Nav.Link> 
