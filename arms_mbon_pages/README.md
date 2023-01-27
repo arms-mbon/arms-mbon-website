@@ -1,7 +1,8 @@
-_The file with the html that is the landing page is called App.js, so if Katrina wants to edit the landing page, that is where she needs to go to :-D_
+_The file with the html that is the landing page is called App.js, so if Katrina wants to edit the landing page, that is where she needs to go to :-D. 
+In order for the webpage to be updated, it is not enough to just edit it in-situ: pull edit push are requirewd, as that triggers an action. 
+To see what one is editing in real time, run the nmp start (read below)_
 
 # Getting Started with Create React App
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
